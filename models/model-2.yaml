@@ -1,0 +1,6 @@
+name: model-2
+source: postgres-src
+type: raw_sql
+rawSql: select * from users
+isSchema: false
+primaryKey: email
